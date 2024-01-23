@@ -16,10 +16,10 @@
         <button id="gen-button" onclick="generatePassword()">Generate password</button>
     </main>
 
-    <div class="container-password hide" onclick="copyPassword()">
+    <div class="container-password hide">
         <span id="title">Your generated password:</span>
-        <span id="password"></span>
-        <span id="tooltip">Click to copy!</span>
+        <span id="password" onclick="copyPassword()"></span>
+        <span id="tooltip" onclick="copyPassword()">Click to copy!</span>
     </div>
 </body>
 </html>
